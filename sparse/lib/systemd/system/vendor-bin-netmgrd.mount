@@ -1,0 +1,13 @@
+[Unit]
+Description=Droid mount for /vendor/bin/netmgrd
+Before=local-fs.target
+
+[Mount]
+What=/usr/libexec/droid-hybris/vendor/bin/netmgrd
+Where=/vendor/bin/netmgrd
+Type=none
+Options=ro,bind
+TimeoutSec=5
+
+[Install]
+WantedBy=local-fs.target
