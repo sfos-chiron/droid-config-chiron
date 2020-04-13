@@ -1,13 +1,13 @@
 # Reference: ../droid-configs-device/droid-configs.inc
 
-%include rpm/header-cheeseburger.inc
+%include rpm/header-chiron.inc
 
-%define vendor_pretty OnePlus
-%define device_pretty OnePlus 5
+%define vendor_pretty Xiaomi
+%define device_pretty Mi Mix 2
 
 %define community_adaptation 1
 %define use_meta_package 1
-%define pixel_ratio 1.75
+%define pixel_ratio 1.8
 
 # Device-specific usb-moded configuration
 Provides: usb-moded-configs

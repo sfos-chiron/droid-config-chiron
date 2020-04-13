@@ -1,18 +1,18 @@
-Description: Pattern with packages for cheeseburger HW Adaptation
-Name: jolla-hw-adaptation-cheeseburger
+Description: Pattern with packages for chiron HW Adaptation
+Name: jolla-hw-adaptation-chiron
 Requires:
-- droid-hal-cheeseburger
-- droid-hal-cheeseburger-detritus
-- droid-hal-cheeseburger-img-boot
-#- droid-hal-cheeseburger-img-recovery
-- droid-hal-cheeseburger-kernel-modules
-- droid-config-cheeseburger-sailfish
-- droid-config-cheeseburger-pulseaudio-settings
-- droid-config-cheeseburger-policy-settings
-- droid-config-cheeseburger-preinit-plugin
-- droid-config-cheeseburger-flashing
-- droid-config-cheeseburger-bluez5
-- droid-hal-version-cheeseburger
+- droid-hal-chiron
+- droid-hal-chiron-detritus
+- droid-hal-chiron-img-boot
+#- droid-hal-chiron-img-recovery
+- droid-hal-chiron-kernel-modules
+- droid-config-chiron-sailfish
+- droid-config-chiron-pulseaudio-settings
+- droid-config-chiron-policy-settings
+- droid-config-chiron-preinit-plugin
+- droid-config-chiron-flashing
+- droid-config-chiron-bluez5
+- droid-hal-version-chiron
 
 # Hybris packages
 - libhybris-libEGL
@@ -79,4 +79,4 @@ Requires:
 - gestured
 - onyx-gesture-settings-plugin
 
-Summary: Jolla HW Adaptation cheeseburger
+Summary: Jolla HW Adaptation chiron

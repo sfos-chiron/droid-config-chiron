@@ -7,3 +7,4 @@ service vndservicemanager /vendor/bin/vndservicemanager /dev/vndbinder
     group system readproc
     writepid /dev/cpuset/system-background/tasks
     shutdown critical
+    override

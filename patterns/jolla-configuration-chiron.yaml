@@ -1,7 +1,7 @@
-Description: Pattern with packages for cheeseburger configurations
-Name: jolla-configuration-cheeseburger
+Description: Pattern with packages for chiron configurations
+Name: jolla-configuration-chiron
 Requires:
-- pattern:jolla-hw-adaptation-cheeseburger
+- pattern:jolla-hw-adaptation-chiron
 
 - patterns-sailfish-applications
 - patterns-sailfish-ui
@@ -44,4 +44,4 @@ Requires:
 # Early stages of porting benefit from these:
 #- pattern:sailfish-porter-tools
 
-Summary: Jolla Configuration cheeseburger
+Summary: Jolla Configuration chiron
